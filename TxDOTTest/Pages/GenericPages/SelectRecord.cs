@@ -15,15 +15,18 @@ namespace TxDOTTest.Pages.GenericPages
         [FindsBy(How = How.XPath, Using = ".//*[@id='ctl00_C1_MWGrid_ctl00_ctl04_MultiSelectCheckBox']")]
         private IWebElement checkFirst { get; set; }
 
-       
+        [FindsBy(How = How.XPath, Using = ".//*[@id='TXLIBDV_IsEnabled_Id']")]
+        private IWebElement checkIsEnabled { get; set; }
 
         public void ClickCheckFirst()
         {
             checkFirst.Click();
         }
 
-        
-        
+        public void ClickIsEnabled()
+        {
+            checkIsEnabled.Click();
+        }
 
     }
 }

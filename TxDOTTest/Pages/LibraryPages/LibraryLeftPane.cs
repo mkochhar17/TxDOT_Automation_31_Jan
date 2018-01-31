@@ -76,5 +76,12 @@ namespace TxDOTAutomation.Pages.LibraryPages
             btnProjectSubType.Click();
             return GetInstance<ProjectSubTypeListPage>();
         }
+
+        public ProjectShortDescriptionListPage ClickProjectShortDescription()
+        {
+            btnProjectShortDescription.Click();
+            return GetInstance<ProjectShortDescriptionListPage>();
+            //return new ProjectSubType();
+        }
     }
 }
