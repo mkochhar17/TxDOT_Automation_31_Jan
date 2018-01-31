@@ -65,5 +65,16 @@ namespace TxDOTAutomation.Pages.LibraryPages
             return GetInstance<ProjectClassificationListPage>();
         }
 
+        public ProjectTypeListPage ClickProjectType()
+        {
+            btnProjectType.Click();
+            return GetInstance<ProjectTypeListPage>();
+        }
+
+        public ProjectSubTypeListPage ClickProjectSubType()
+        {
+            btnProjectSubType.Click();
+            return GetInstance<ProjectSubTypeListPage>();
+        }
     }
 }
