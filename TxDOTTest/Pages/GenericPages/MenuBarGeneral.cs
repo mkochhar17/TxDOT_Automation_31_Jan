@@ -79,7 +79,7 @@ namespace TxDOTTest.Pages.GenericPages
         }
 
         /// <summary>
-        /// Method to Click on Cancel button on creating or editing the existing record
+        /// Method to Click on Cancel button 'ON' creating or editing the existing record
         /// </summary>
         public void ClickDCancel()
         {
